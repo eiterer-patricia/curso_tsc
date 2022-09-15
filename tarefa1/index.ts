@@ -1,8 +1,8 @@
-const fisrtNum: number = 1586
-const secondNum: number = 7294
-
-function sum (total:number) {
-    console.log(total)
+function sum (a:number, b:number) {
+    return a+b
 }
 
-sum(fisrtNum + secondNum)
+let x: number = 1586
+let y: number = 7294
+
+console.log(sum(x,y))

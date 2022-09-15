@@ -1,7 +1,7 @@
 "use strict";
-const fisrtNum = 1536;
-const secondNum = 7294;
-function sum(total) {
-    console.log(total);
+function sum(a, b) {
+    return a + b;
 }
-sum(fisrtNum + secondNum);
+let x = 1586;
+let y = 7294;
+console.log(sum(x, y));
